@@ -51,7 +51,7 @@ header h1 {
 
 main {
   background-color: #eff1ff;
-  height: 240.0rem;
+  max-height: 300.0rem;
   margin: 0 auto;
   align-items: center;
   position: relative;
@@ -123,7 +123,9 @@ main .photos:nth-child(6) {
   height: 45rem;
   margin-bottom: 6rem;
 }
-
+main footer{
+  display: none;
+}
 @media all and (min-width: 700px) {
   body {
     width: 128rem;
@@ -165,6 +167,7 @@ main .photos:nth-child(6) {
     gap: 3.2rem;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 220px 220px 220px;
+    margin-bottom: 5rem;
   }
 
   h2 {
@@ -216,6 +219,17 @@ main .photos:nth-child(6) {
     display: grid;
     grid-column: 3;
     grid-row: 2 / span 2;
+  
+  }
+
+  main footer{
+    display: flex;
+    justify-content: center ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: #4A4E69;
+
   }
 
 
