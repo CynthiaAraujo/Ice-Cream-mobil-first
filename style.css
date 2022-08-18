@@ -47,7 +47,7 @@ header h1 {
 
 main {
   background-color: #eff1ff;
-  height: 162.7rem;
+  height: 240.0rem;
   margin: 0 auto;
   align-items: center;
   position: relative;
@@ -109,13 +109,15 @@ main .photos:nth-child(3) {
 }
 main .photos:nth-child(4) {
   height: 45rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3.6rem;
 }
 main .photos:nth-child(5) {
-  display: none;
+  height: 25rem;
+  margin-bottom: 3.6rem;
 }
 main .photos:nth-child(6) {
-  display: none;
+  height: 45rem;
+  margin-bottom: 6rem;
 }
 
 @media all and (min-width: 700px) {
